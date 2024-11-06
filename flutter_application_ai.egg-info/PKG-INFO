@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: flutter_application_ai
+Version: 0.1
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Provides-Extra: dev
+Requires-Dist: pywin32; extra == "dev"

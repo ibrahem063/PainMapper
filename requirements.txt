@@ -1,3 +1,4 @@
+# متطلبات الإنتاج
 absl-py==2.1.0
 anfis==0.3.1
 asttokens==2.4.1
@@ -53,7 +54,6 @@ Pygments==2.18.0
 pyparsing==3.1.2
 python-dateutil==2.9.0.post0
 pytz==2024.1
-pywin32==306
 pyzmq==26.0.3
 requests==2.31.0
 rich==13.7.1
@@ -83,3 +83,6 @@ wcwidth==0.2.13
 Werkzeug==3.0.3
 wheel==0.43.0
 wrapt==1.16.0
+
+# متطلبات التطوير فقط
+pywin32==306 ; extra == "dev"
